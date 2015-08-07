@@ -9,10 +9,12 @@ Runs tests continuously, shows green and red, watches for file changes.
 
 Only ever used minimally, only on Linux.
 
-## How to run
-0. Add path of `reptl` dir to your `PATH`, or copy its files into say `~/bin`.
+For better notifications, consider [Dunst](http://knopwob.org/dunst/index.html) (as shown in red in screenshot).
 
-1. Write some rackunit tests and get them to run via `raco test`.
+## How to run
+0. Add path of `reptl` dir to your `PATH`, or copy its files into say `~/bin`. Install `inotify-tools`.
+
+1. Write some rackunit tests and get them to run via `raco test ...`.
 
 2. Run on file(s) glob pattern, like `reptl.zsh ./http*(.)`, to repeatedly run tests as files change.
 
