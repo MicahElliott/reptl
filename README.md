@@ -3,7 +3,8 @@
 <img src="https://raw.githubusercontent.com/MicahElliott/reptl/master/reptl.jpg"
  alt="Reptl Screenshot" title="Reptl Screenshot" align="right" />
 
-_(pronounced “Reptile”)_
+_(Pronounced “Reptile”, which I guess I think of as green, which is a good
+color when testing.)_
 
 Runs tests continuously, shows green and red, watches for file changes.
 
