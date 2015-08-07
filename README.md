@@ -1,15 +1,17 @@
-# REPTL, Read, Eval, Print, TEST, Loop
+# REPTL: Read, Eval, Print, TEST, Loop (for Racket)
 
-(pronounced “Reptile”)
+_(pronounced “Reptile”)_
 
-Continuously run racket tests. Shows green and red, watches for file changes.
+Runs tests continuously, shows green and red, watches for file changes.
+
+Only ever used minimally, only on Linux.
 
 ## How to run
-0. Add path to `reptl` dir to your `PATH`, or copy its files into say `~/bin`.
+0. Add path of `reptl` dir to your `PATH`, or copy its files into say `~/bin`.
 
 1. Write some rackunit tests and get them to run via `raco test`.
 
-2. Run `reptl.zsh` to repeatedly run tests as files change.
+2. Run on file(s) glob pattern, like `reptl.zsh ./http*(.)`, to repeatedly run tests as files change.
 
 ## How it works
 Trivially simple implementation using `inotify`.
@@ -21,3 +23,7 @@ Trivially simple implementation using `inotify`.
 - Pretty pop-up notifications via `inotify-send`.
 
 - Writes some red/green bars to terminal.
+
+## How is sucks
+- Coarse granularity: simply runs all tests on change
+- No installer yet; might add to AUR
