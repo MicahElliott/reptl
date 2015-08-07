@@ -1,5 +1,8 @@
 # REPTL: Read, Eval, Print, TEST, Loop (for Racket)
 
+<img src="https://raw.githubusercontent.com/MicahElliott/reptl/master/reptl.jpg"
+ alt="Reptl Screenshot" title="Reptl Screenshot" align="right" />
+
 _(pronounced “Reptile”)_
 
 Runs tests continuously, shows green and red, watches for file changes.
